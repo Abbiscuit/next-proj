@@ -5,7 +5,7 @@ import Typography from '@material-ui/core/Typography';
 const Home = () => (
   <Box component="div" padding={2}>
     <Head>
-      <title>Create Next App</title>
+      <title>Hnyka Studio</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
