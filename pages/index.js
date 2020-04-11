@@ -1,24 +1,25 @@
 import Head from 'next/head';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
+import Grid from '@material-ui/core/Grid';
 
 const Home = () => (
-  <Box component="div" padding={2}>
+  <Grid component="div" container>
     <Head>
       <title>Hnyka Studio</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
-    <Box component="main">
-      <Typography variant="h6" component="h1" gutterBottom>
-        Welcome to <a href="https://nextjs.org">Next.js!</a>
-      </Typography>
+    <Grid item>
+      <Box component="main" padding={3}>
+        <Typography variant="h2" component="h1" gutterBottom>
+          Hnyka Studio 🎨
+        </Typography>
 
-      <Typography gutterBottom>
-        Get started by editing <code>pages/index.js</code>
-      </Typography>
-    </Box>
-  </Box>
+        <Typography gutterBottom>We design and code.</Typography>
+      </Box>
+    </Grid>
+  </Grid>
 );
 
 export default Home;
